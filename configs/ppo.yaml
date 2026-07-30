@@ -1,0 +1,16 @@
+algorithm: ppo
+hidden_layers: [64, 64]
+activation: tanh
+action_distribution: beta
+learning_rate: 0.0003
+ppo_clip: 0.2
+gae_lambda: 0.95
+batch_size: 256
+epochs_per_update: 10
+entropy_coefficient: 0.001
+max_gradient_norm: 0.5
+gamma: 0.99
+value_coefficient: 0.5
+rollout_steps: 2048
+training_steps: 1000000
+device: cpu

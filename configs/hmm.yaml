@@ -1,0 +1,6 @@
+states: 2
+covariance_type: full
+n_initializations: 20
+variance_floor: 1.0e-8
+min_state_occupancy: 0.03
+transition_stickiness: 500

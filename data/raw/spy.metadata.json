@@ -1,0 +1,10 @@
+{
+  "symbol": "SPY",
+  "source": "Yahoo Finance chart API",
+  "downloaded_at_utc": "2026-07-20T14:38:51.573402+00:00",
+  "requested_start": "1990-01-01",
+  "requested_end_exclusive": null,
+  "first_date": "1993-01-29",
+  "last_date": "2026-07-20",
+  "observations": 8424
+}

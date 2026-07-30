@@ -1,0 +1,14 @@
+seed: 42
+data_config: ../data.yaml
+hmm_config: ../hmm.yaml
+cap_config: ../cap.yaml
+agent_config: ../ppo.yaml
+environment:
+  episode_length: 252
+  transaction_cost_bps: 10
+  initial_wealth: 1.0
+  initial_exposure: 0.0
+evaluation:
+  seeds: 5
+  bootstrap_samples: 2000
+  bootstrap_block_length: 40

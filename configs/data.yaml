@@ -1,0 +1,12 @@
+symbol: SPY
+frequency: daily
+raw_path: data/raw/spy.csv
+processed_path: data/processed/spy_features.parquet
+start_date: null
+end_date: null
+splits:
+  train_years: 10
+  calibration_years: 2
+  validation_years: 1
+  test_years: 1
+  step_years: 1

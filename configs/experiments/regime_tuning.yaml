@@ -1,0 +1,14 @@
+seed: 42
+parameter: transition_stickiness
+candidates: [0, 5, 20, 50, 100, 200, 500, 1000, 2000]
+selection:
+  max_log_score_loss_per_observation: 0.01
+  primary_metric: annualized_switches
+  tie_breakers: [short_spell_fraction, validation_log_score_per_observation]
+constraints:
+  fit_on: training
+  select_on: validation
+  test_data_access: prohibited
+  min_state_occupancy: 0.03
+  max_bear_expected_duration: 50
+  max_bull_expected_duration: 100

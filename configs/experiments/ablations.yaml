@@ -1,0 +1,13 @@
+variants:
+  - unconstrained
+  - regime_input
+  - cap_only
+  - full
+common:
+  agent_config: ../ppo.yaml
+  deterministic_evaluation: true
+  checkpoint_selection:
+    primary_metric: net_log_growth
+    tie_breaker: lower_turnover
+    require_mandate_satisfaction: true
+

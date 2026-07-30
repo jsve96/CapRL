@@ -1,0 +1,10 @@
+{
+  "input": "data/raw/spy.csv",
+  "input_sha256": "933537b679df6345c8c9e980bfd5959aa654217ec7c0ef8f950e7fd5552efc9a",
+  "prepared_hash": "56ab54d8ef03578e2d10b6f15e624b4ab401edbb5e78e500c70c08b8a29b9645",
+  "first_date": "1993-11-11",
+  "last_date": "2026-07-20",
+  "observations": 8225,
+  "scaled": false,
+  "scaling_note": "Fit robust scalers separately on each walk-forward training fold."
+}

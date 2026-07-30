@@ -1,0 +1,7 @@
+cvar_confidence: 0.95
+risk_fraction: 1.0
+safety_margin: 0.05
+gamma: 1.0
+bisection_tolerance: 1.0e-6
+bisection_max_iterations: 100
+
