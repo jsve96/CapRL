@@ -1,7 +1,7 @@
 # CapRL
 
 Reproducible research code for regime-constrained reinforcement learning in a
-single-asset, long-only trend-following strategy.
+single-asset, long-only trend-following strategy. Update Repo test.
 
 
 ## Setup
