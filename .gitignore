@@ -7,6 +7,7 @@ __pycache__/
 dist/
 *.egg-info/
 outputs/**
+!outputs/RiskManagement.png
 !outputs/cvar_risk_ablation/
 outputs/cvar_risk_ablation/*
 !outputs/cvar_risk_ablation/cvar_risk_ablation_summary.csv

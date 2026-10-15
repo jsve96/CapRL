@@ -1,7 +1,8 @@
 # CapRL
 
-Reproducible research code for regime-constrained reinforcement learning in a
-single-asset, long-only trend-following strategy. Update Repo test.
+![alte text](/outputs/RiskManagement.png)
+
+Reproducible research code for Policy-Independent Risk Control for Reinforcement Learning in Trading: Calibrated Exposure Caps under Tail-Risk Budgets under a single-asset, long-only trend-following strategy.
 
 
 ## Setup
